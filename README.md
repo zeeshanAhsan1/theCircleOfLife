@@ -8,4 +8,8 @@ The environment for this project is a graph of nodes connected by edges. The age
 - Add an edge between it and one node within 5 steps forward or backward along the primary loop.
 - Do this until no more edges can be added.
 
+## The Problem : Predator, Prey and Agent
+This environment is occupied by three entities, the Predator, the Prey, and the Agent, who can move from node to node along the edges. The Agent wants to catch the Prey; the Predator wants to catch the Agent. If the Agent and the Prey occupy the same node, the Agent wins. If the Agent and the Predator occupy the same node, the Agent loses.The three players move in rounds, starting with the Agent, followed by the Prey, followed by the Predator.
+
+
 
